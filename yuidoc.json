@@ -1,0 +1,10 @@
+{
+    "name": "Lyoko API",
+    "description": "Lyoko API: A powerful tcp socket framework for node.js",
+    "version": "0.1.0",
+    "url": "https://github.com/chrisenytc/lyoko",
+    "options": {
+        "outdir": "./docs",
+        "paths": "./lib"
+    }
+}

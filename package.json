@@ -1,0 +1,50 @@
+{
+    "name": "lyoko",
+    "description": "A powerful tcp socket framework for node.js",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://github.com/chrisenytc/lyoko",
+    "author": {
+        "name": "Christopher EnyTC",
+        "email": "chrisenytc@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/chrisenytc/lyoko.git"
+    },
+    "bugs": {
+        "url": "https://github.com/chrisenytc/lyoko/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/chrisenytc/lyoko/blob/master/LICENSE"
+    }],
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "make test"
+    },
+    "engines": {
+        "node": ">= 0.10.26",
+        "npm": ">=1.4.3"
+    },
+    "dependencies": {
+        "nssocket": "~0.5.1",
+        "nedb": "~0.10.5",
+        "validator": "~3.16.0",
+        "underscore": "~1.6.0",
+        "underscore.string": "~2.3.3",
+        "colors": "~0.6.2"
+    },
+    "devDependencies": {
+        "mocha": "~1.10.0",
+        "chai": "~1.8.0"
+    },
+    "keywords": [
+        "tcp",
+        "sockets",
+        "framework",
+        "stack",
+        "modular"
+    ]
+}

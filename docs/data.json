@@ -1,0 +1,138 @@
+{
+    "project": {
+        "name": "Lyoko API",
+        "description": "Lyoko API: A powerful tcp socket framework for node.js",
+        "version": "0.1.0",
+        "url": "https://github.com/chrisenytc/lyoko"
+    },
+    "files": {
+        "lib/core/lyoko.js": {
+            "name": "lib/core/lyoko.js",
+            "modules": {},
+            "classes": {
+                "Lyoko": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Lyoko": {
+            "name": "Lyoko",
+            "shortname": "Lyoko",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "lib/core/lyoko.js",
+            "line": 29,
+            "is_constructor": 1,
+            "example": [
+                "\n\n    var lyoko = new Lyoko();\n"
+            ]
+        }
+    },
+    "classitems": [
+        {
+            "file": "lib/core/lyoko.js",
+            "line": 90,
+            "description": "Method responsible for load all dependencies",
+            "example": [
+                "\n\n    lyoko.loader();"
+            ],
+            "itemtype": "method",
+            "name": "loader",
+            "access": "public",
+            "tagname": "",
+            "class": "Lyoko"
+        },
+        {
+            "file": "lib/core/lyoko.js",
+            "line": 124,
+            "description": "Method responsible for get configs",
+            "example": [
+                "\n\n    lyoko.getConfig('fileName');"
+            ],
+            "itemtype": "method",
+            "name": "getConfig",
+            "access": "public",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "fileName",
+                    "description": "Name of config file",
+                    "type": "Object"
+                }
+            ],
+            "class": "Lyoko"
+        },
+        {
+            "file": "lib/core/lyoko.js",
+            "line": 145,
+            "description": "Method responsible for get services",
+            "example": [
+                "\n\n    lyoko.getService('fileName');"
+            ],
+            "itemtype": "method",
+            "name": "getService",
+            "access": "public",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "fileName",
+                    "description": "Name of service file",
+                    "type": "Object"
+                }
+            ],
+            "class": "Lyoko"
+        },
+        {
+            "file": "lib/core/lyoko.js",
+            "line": 166,
+            "description": "Method responsible for get libs",
+            "example": [
+                "\n\n    lyoko.getLib();"
+            ],
+            "itemtype": "method",
+            "name": "getLib",
+            "access": "public",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "fileName",
+                    "description": "Name of lib file",
+                    "type": "String"
+                }
+            ],
+            "class": "Lyoko"
+        },
+        {
+            "file": "lib/core/lyoko.js",
+            "line": 183,
+            "description": "Method responsible for loadding sockets",
+            "example": [
+                "\n\n    lyoko.loadSockets(8081, function() {});"
+            ],
+            "itemtype": "method",
+            "name": "loadSockets",
+            "access": "public",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "port",
+                    "description": "Port of socket",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "Callback",
+                    "type": "Function"
+                }
+            ],
+            "class": "Lyoko"
+        }
+    ],
+    "warnings": []
+}
